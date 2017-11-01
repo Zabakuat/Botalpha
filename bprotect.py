@@ -43,14 +43,13 @@ sys.setdefaultencoding('utf-8')
 
 # kk=ki=kc=cl
 
-helpMessage ="""Ghoul Bot(s)
-Use Prefix 「Ghoul」 to use the Bot(s)
-Prefix is Case sensitive but the commands is not.
-[Gid] - Show Group ID
-[Mid all] - Show all the Bot(s) MID
-[Bot 1/2/3/4/5] - Shows the specific Bot MID
-[Bot all] - Show all the Bot(s) Contact
-[Bot 1/2/3/4/5] - Shows the specific Bot Contact
+helpMessage ="""Ini Bot(s)
+Use Prefix 「Ini」 untuk menggunakan bot
+[Gid] - Untuk Group ID
+[Mid all] - Untuk semua MID Bot
+[Bot MJ1/MJ2/MJ3/MJ4] - Shows the specific Bot MID
+[Bot all] - Untuk semua kontak bot
+[Bot MJ1/MJ2/MJ3/MJ4] - Shows the specific Bot Contact
 [Yid] - Show your ID
 [Contact 「mid」] - Give Contact by MID
 [Join on/off] - Auto join group
@@ -104,10 +103,10 @@ wait = {
     "wblack":False,
     "dblack":False,
     "clock":True,
-    "cName":"Ghoul Vokster",
-    "cName2":"Ghoul Berster",
-    "cName3":"Ghoul Gifster",
-    "cName4":"Ghoul Flipster",
+    "cName":"Ini Vokster",
+    "cName2":"Ini Berster",
+    "cName3":"Ini Gifster",
+    "cName4":"Ini Flipster",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
@@ -126,67 +125,67 @@ cancelinvite = {
     'autoCancelUrl':True
 }
 
-#bot1_name = {
-#    "1" : "[Ardh-]BOT1",
-#    "2" : "Ardh-]BOT1[",
-#    "3" : "rdh-]BOT1[A",
-#    "4" : "dh-]BOT1[Ar",
-#    "5" : "h-]BOT1[Ard",
-#    "6" : "-]BOT1[Ardh",
-#    "7" : "]BOT1[Ardh-",
-#    "8" : "BOT1[Ardh-]",
+#MJ1_name = {
+#    "1" : "[Ardh-]MJ1",
+#    "2" : "Ardh-]MJ1[",
+#    "3" : "rdh-]MJ1[A",
+#    "4" : "dh-]MJ1[Ar",
+#    "5" : "h-]MJ1[Ard",
+#    "6" : "-]MJ1[Ardh",
+#    "7" : "]MJ1[Ardh-",
+#    "8" : "MJ1[Ardh-]",
 #    "9" : "OT1[Ardh-]B",
 #    "10" : "T1[Ardh-]BO",
 #    "11" : "1[Ardh-]BOT"
 #}
-#bot2_name = {
-#    "1" : "[Ardh-]BOT2",
-#    "2" : "Ardh-]BOT2[",
-#    "3" : "rdh-]BOT2[A",
-#    "4" : "dh-]BOT2[Ar",
-#    "5" : "h-]BOT2[Ard",
-#    "6" : "-]BOT2[Ardh",
-#    "7" : "]BOT2[Ardh-",
-#    "8" : "BOT2[Ardh-]",
+#MJ2_name = {
+#    "1" : "[Ardh-]MJ2",
+#    "2" : "Ardh-]MJ2[",
+#    "3" : "rdh-]MJ2[A",
+#    "4" : "dh-]MJ2[Ar",
+#    "5" : "h-]MJ2[Ard",
+#    "6" : "-]MJ2[Ardh",
+#    "7" : "]MJ2[Ardh-",
+#    "8" : "MJ2[Ardh-]",
 #    "9" : "OT2[Ardh-]B",
 #    "10" : "T2[Ardh-]BO",
 #    "11" : "2[Ardh-]BOT"
 #}
-#bot3_name = {
-#    "1" : "[Ardh-]BOT3",
-#    "2" : "Ardh-]BOT3[",
-#    "3" : "rdh-]BOT3[A",
-#    "4" : "dh-]BOT3[Ar",
-#    "5" : "h-]BOT3[Ard",
-#    "6" : "-]BOT3[Ardh",
-#    "7" : "]BOT3[Ardh-",
-#    "8" : "BOT3[Ardh-]",
+#MJ3_name = {
+#    "1" : "[Ardh-]MJ3",
+#    "2" : "Ardh-]MJ3[",
+#    "3" : "rdh-]MJ3[A",
+#    "4" : "dh-]MJ3[Ar",
+#    "5" : "h-]MJ3[Ard",
+#    "6" : "-]MJ3[Ardh",
+#    "7" : "]MJ3[Ardh-",
+#    "8" : "MJ3[Ardh-]",
 #    "9" : "OT3[Ardh-]B",
 #    "10" : "T3[Ardh-]BO",
 #    "11" : "3[Ardh-]BOT"
 #}
-#bot4_name = {
-#    "1" : "[Ardh-]BOT4",
-#    "2" : "Ardh-]BOT4[",
-#    "3" : "rdh-]BOT4[A",
-#    "4" : "dh-]BOT4[Ar",
-#    "5" : "h-]BOT4[Ard",
-#    "6" : "-]BOT4[Ardh",
-#    "7" : "]BOT4[Ardh-",
-#    "8" : "BOT4[Ardh-]",
+#MJ4_name = {
+#    "1" : "[Ardh-]MJ4",
+#    "2" : "Ardh-]MJ4[",
+#    "3" : "rdh-]MJ4[A",
+#    "4" : "dh-]MJ4[Ar",
+#    "5" : "h-]MJ4[Ard",
+#    "6" : "-]MJ4[Ardh",
+#    "7" : "]MJ4[Ardh-",
+#    "8" : "MJ4[Ardh-]",
 #    "9" : "OT4[Ardh-]B",
 #    "10" : "T4[Ardh-]BO",
 #    "11" : "4[Ardh-]BOT"
 #}
-#bot5_name = {
-#    "1" : "[Ardh-]BOT5",
-#    "2" : "Ardh-]BOT5[",
-#    "3" : "rdh-]BOT5[A",
-#    "4" : "dh-]BOT5[Ar",
-#    "5" : "h-]BOT5[Ard",
-#    "6" : "-]BOT5[Ardh",
-#    "7" : "]BOT5[Ardh-",
-#    "8" : "BOT5[Ardh-]",
+#MJ5_name = {
+#    "1" : "[Ardh-]MJ5",
+#    "2" : "Ardh-]MJ5[",
+#    "3" : "rdh-]MJ5[A",
+#    "4" : "dh-]MJ5[Ar",
+#    "5" : "h-]MJ5[Ard",
+#    "6" : "-]MJ5[Ardh",
+#    "7" : "]MJ5[Ardh-",
+#    "8" : "MJ5[Ardh-]",
 #    "9" : "OT5[Ardh-]B",
 #    "10" : "T5[Ardh-]BO",
 #    "11" : "5[Ardh-]BOT"
@@ -270,28 +269,28 @@ def bot(op):
             if mid in op.param3:
                 if wait["autoJoin"] == True:
                     cl.acceptGroupInvitation(op.param1)
-                    print "BOT 1 Joined"
+                    print "MJ 1 gabung"
                 else:
                     print "autoJoin is Off"
 
             if Amid in op.param3:
                 if wait["autoJoin"] == True:
                     kk.acceptGroupInvitation(op.param1)
-                    print "BOT 2 Joined"
+                    print "MJ 2 gabung"
                 else:
                     print "autoJoin is Off"
 
             if Bmid in op.param3:
                 if wait["autoJoin"] == True:
                     ki.acceptGroupInvitation(op.param1)
-                    print "BOT 3 Joined"
+                    print "MJ 3 gabung"
                 else:
                     print "autoJoin is Off"
 
             if Cmid in op.param3:
                 if wait["autoJoin"] == True:
                     kc.acceptGroupInvitation(op.param1)
-                    print "BOT 4 Joined"
+                    print "MJ 4 gabung"
                 else:
                     print "autoJoin is Off"
             else:
@@ -300,21 +299,21 @@ def bot(op):
                         X = cl.getGroup(op.param1)
                         gInviMids = [contact.mid for contact in X.invitee]
                         cl.cancelGroupInvitation(op.param1, gInviMids)
-                        print gInviMids + "invite canceled"
+                        print gInviMids + "Cancel undangan"
                     except:
                         try:
-                            print "Retry canceling invitation"
+                            print "Ulang gagalkan undangan"
                             X = random.choice(KAC).getGroup(op.param1)
                             gInviMids = [contact.mid for contact in X.invitee]
                             random.choice(KAC).cancelGroupInvitation(op.param1, gInviMids)
                             print gInviMids + "invite canceled"
                         except:
-                            print "Bot can't cancel the invitation"
+                            print "Bot tidak bisa menggalkan undangan"
                             pass
 
         if op.type == 15:
             random.choice(KAC).sendText(op.param1, "Good Bye :)")
-            print op.param3 + "has left the group"
+            print op.param3 + "Telah meninggalkan group"
 
         if op.type == 17:
             if op.param3 in wait["blacklist"]:
@@ -324,9 +323,9 @@ def bot(op):
                     random.choice(KAC).kickoutFromGroup(op.param1, op.param3)
 
         if op.type == 19:
-            print "someone was kicked"
+            print "seseorang telah kick"
             if op.param3 in admin:
-                print "Admin has been kicked"
+                print "Admin dikick"
                 if op.param2 in Bots:
                     pass
                 else:
@@ -339,10 +338,10 @@ def bot(op):
                     except:
                         random.choice(KAC).inviteIntoGroup(op.param1,op.param3)
                         adm.acceptGroupInvitation(op.param1)
-                print "Admin Joined"      
+                print "Admin Gabung"      
 
             if mid in op.param3:
-                print "BOT1 has been kicked"
+                print "MJ1 telah di kick"
                 if op.param2 in Bots:
                     pass
                 if op.param2 in admin:
@@ -357,10 +356,10 @@ def bot(op):
                     except:
                         random.choice(KAC).inviteIntoGroup(op.param1,op.param3)
                         cl.acceptGroupInvitation(op.param1)
-                    print "BOT1 Joined"
+                    print "MJ1 Joined"
 
             if Amid in op.param3:
-                print "BOT2 has been kicked"
+                print "MJ2 telah di kick"
                 if op.param2 in Bots:
                     pass
                 if op.param2 in admin:
@@ -375,10 +374,10 @@ def bot(op):
                     except:
                         random.choice(KAC).inviteIntoGroup(op.param1,op.param3)
                         kk.acceptGroupInvitation(op.param1)
-                    print "BOT2 Joined"
+                    print "MJ2 Joined"
 
             if Bmid in op.param3:
-                print "BOT3 has been kicked"
+                print "MJ3 telah di kick"
                 if op.param2 in Bots:
                     pass
                 if op.param2 in admin:
@@ -393,10 +392,10 @@ def bot(op):
                     except:
                         random.choice(KAC).inviteIntoGroup(op.param1,op.param3)
                         ki.acceptGroupInvitation(op.param1)
-                    print "BOT3 Joined"
+                    print "MJ3 Joined"
 
             if Cmid in op.param3:
-                print "BOT4 has been kicked"
+                print "MJ4 telah di kick"
                 if op.param2 in Bots:
                     pass
                 if op.param2 in admin:
@@ -411,7 +410,7 @@ def bot(op):
                     except:
                         random.choice(KAC).inviteIntoGroup(op.param1,op.param3)
                         kc.acceptGroupInvitation(op.param1)
-                    print "BOT4 Joined"
+                    print "MJ4 Joined"
 
             else:
                 cl.kickoutFromGroup(op.param1,[op.param2])
@@ -442,18 +441,18 @@ def bot(op):
                         wait["blacklist"][msg.contentMetadata["mid"]] = True
                         wait["wblacklist"] = False
                         cl.sendText(msg.to,"Added to the Blacklist")
-                        print [msg.contentMetadata["mid"]] + " Added to the Blacklist"
+                        print [msg.contentMetadata["mid"]] + " Ditambahkan ke Blacklist"
 
                elif wait["dblacklist"] == True:
                    if msg.contentMetadata["mid"] in wait["blacklist"]:
                         del wait["blacklist"][msg.contentMetadata["mid"]]
                         cl.sendText(msg.to,"Deleted from the Blacklist")
                         wait["dblacklist"] = False
-                        print [msg.contentMetadata["mid"]] + " Removed from the Blacklist"
+                        print [msg.contentMetadata["mid"]] + " Dihapus dari Blacklist"
 
                    else:
                         wait["dblacklist"] = False
-                        cl.sendText(msg.to,"Contact not in Blacklist")
+                        cl.sendText(msg.to,"Kontak tidak ada dalam Blacklist")
                         print "MID not in blacklist"
                elif wait["contact"] == True:
                     if msg.from_ in admin:
@@ -473,7 +472,7 @@ def bot(op):
                             except:
                                 cu = ""
                             cl.sendText(msg.to,"[displayName]:\n" + contact.displayName + "\n\n[MID]:\n" + msg.contentMetadata["mid"] + "\n\n[Status Message]:\n" + contact.statusMessage + "\n\n[Profile Picture]:\nhttp://dl.profile.line-cdn.net/" + contact.pictureStatus + "\n\n[Cover Picture]:\n" + str(cu))
-                            print "Contact sent"
+                            print "Kontak dikirim"
 #-----------------------[Help Section]------------------------                
             elif msg.text in ["/help","/Help"]:
                 if wait["lang"] == "JP":
@@ -555,25 +554,25 @@ def bot(op):
                 kc.sendMessage(msg)
                 print "[Command]Bot all executed"
 
-            elif msg.text in ["Bot 1","bot 1"]:
+            elif msg.text in ["Bot 1","MJ 1"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': mid}
                 cl.sendMessage(msg)
                 print "[Command]Bot 1 executed"
 
-            elif msg.text in ["Bot 2","bot 2"]:
+            elif msg.text in ["Bot 2","MJ 2"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Amid}
                 kk.sendMessage(msg)
                 print "[Command]Bot 2 executed"
 
-            elif msg.text in ["Bot 3","bot 3"]:
+            elif msg.text in ["Bot 3","MJ 3"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Bmid}
                 ki.sendMessage(msg)
                 print "[Command]Bot 3 executed"
 
-            elif msg.text in ["Bot 4","bot 4"]:
+            elif msg.text in ["Bot 4","MJ 4"]:
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': Cmid}
                 kc.sendMessage(msg)
@@ -679,7 +678,7 @@ def bot(op):
                 cl.sendText(msg.to,msg.to)
                 print "[Command]Gid executed"
             elif msg.text in ["Show Mid All","Show mid all"]:
-                cl.sendText(msg.to,"[Ardh-]Bot(s) ID\n[Ardh-]BOT1\n" + mid + "\n\n[Ardh-]BOT2\n" + Amid + "\n\n[Ardh-]BOT3\n" + Bmid + "\n\n[Ardh-]BOT4\n" + Cmid + "\n\n[Ardh-]BOT5\n" + Dmid)
+                cl.sendText(msg.to,"[Ardh-]Bot(s) ID\n[Ardh-]MJ1\n" + mid + "\n\n[Ardh-]MJ2\n" + Amid + "\n\n[Ardh-]MJ3\n" + Bmid + "\n\n[Ardh-]MJ4\n" + Cmid + "\n\n[Ardh-]MJ5\n" + Dmid)
                 print "[Command]Mid executed"
             elif msg.text in ["Bot Mid 1","Bot mid 1"]:
                 cl.sendText(msg.to,mid)
@@ -1417,251 +1416,251 @@ def bot(op):
     except Exception as error:
         print error
 
-# def nameUpdate_Bot1():
+# def nameUpdate_MJ1():
 #     while True:
 #         try:
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["1"]
+#             profile.displayName = MJ1_name["1"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["2"]
+#             profile.displayName = MJ1_name["2"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["3"]
+#             profile.displayName = MJ1_name["3"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["4"]
+#             profile.displayName = MJ1_name["4"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["5"]
+#             profile.displayName = MJ1_name["5"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["6"]
+#             profile.displayName = MJ1_name["6"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["7"]
+#             profile.displayName = MJ1_name["7"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["8"]
+#             profile.displayName = MJ1_name["8"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["9"]
+#             profile.displayName = MJ1_name["9"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["10"]
+#             profile.displayName = MJ1_name["10"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = cl.getProfile()
-#             profile.displayName = bot1_name["11"]
+#             profile.displayName = MJ1_name["11"]
 #             cl.updateProfile(profile)
 #             time.sleep(0.5)
 #         except:
 #             pass
 
-# def nameUpdate_Bot2():
+# def nameUpdate_MJ2():
 #     while True:
 #         try:
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["1"]
+#             profile.displayName = MJ2_name["1"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["2"]
+#             profile.displayName = MJ2_name["2"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["3"]
+#             profile.displayName = MJ2_name["3"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["4"]
+#             profile.displayName = MJ2_name["4"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["5"]
+#             profile.displayName = MJ2_name["5"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["6"]
+#             profile.displayName = MJ2_name["6"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["7"]
+#             profile.displayName = MJ2_name["7"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["8"]
+#             profile.displayName = MJ2_name["8"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["9"]
+#             profile.displayName = MJ2_name["9"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["10"]
+#             profile.displayName = MJ2_name["10"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kk.getProfile()
-#             profile.displayName = bot2_name["11"]
+#             profile.displayName = MJ2_name["11"]
 #             kk.updateProfile(profile)
 #             time.sleep(0.5)
 #         except:
 #             pass
 
-# def nameUpdate_Bot3():
+# def nameUpdate_MJ3():
 #     while True:
 #         try:
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["1"]
+#             profile.displayName = MJ3_name["1"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["2"]
+#             profile.displayName = MJ3_name["2"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["3"]
+#             profile.displayName = MJ3_name["3"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["4"]
+#             profile.displayName = MJ3_name["4"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["5"]
+#             profile.displayName = MJ3_name["5"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["6"]
+#             profile.displayName = MJ3_name["6"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["7"]
+#             profile.displayName = MJ3_name["7"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["8"]
+#             profile.displayName = MJ3_name["8"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["9"]
+#             profile.displayName = MJ3_name["9"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["10"]
+#             profile.displayName = MJ3_name["10"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = ki.getProfile()
-#             profile.displayName = bot3_name["11"]
+#             profile.displayName = MJ3_name["11"]
 #             ki.updateProfile(profile)
 #             time.sleep(0.5)
 #         except:
 #             pass
 
-# def nameUpdate_Bot4():
+# def nameUpdate_MJ4():
 #     while True:
 #         try:
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["1"]
+#             profile.displayName = MJ4_name["1"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["2"]
+#             profile.displayName = MJ4_name["2"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["3"]
+#             profile.displayName = MJ4_name["3"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["4"]
+#             profile.displayName = MJ4_name["4"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["5"]
+#             profile.displayName = MJ4_name["5"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["6"]
+#             profile.displayName = MJ4_name["6"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["7"]
+#             profile.displayName = MJ4_name["7"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["8"]
+#             profile.displayName = MJ4_name["8"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["9"]
+#             profile.displayName = MJ4_name["9"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["10"]
+#             profile.displayName = MJ4_name["10"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kc.getProfile()
-#             profile.displayName = bot4_name["11"]
+#             profile.displayName = MJ4_name["11"]
 #             kc.updateProfile(profile)
 #             time.sleep(0.5)
 #         except:
 #             pass
 
-# def nameUpdate_Bot5():
+# def nameUpdate_MJ5():
 #     while True:
 #         try:
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["1"]
+#             profile.displayName = MJ5_name["1"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["2"]
+#             profile.displayName = MJ5_name["2"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["3"]
+#             profile.displayName = MJ5_name["3"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["4"]
+#             profile.displayName = MJ5_name["4"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["5"]
+#             profile.displayName = MJ5_name["5"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["6"]
+#             profile.displayName = MJ5_name["6"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["7"]
+#             profile.displayName = MJ5_name["7"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["8"]
+#             profile.displayName = MJ5_name["8"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["9"]
+#             profile.displayName = MJ5_name["9"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["10"]
+#             profile.displayName = MJ5_name["10"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #             profile = kg.getProfile()
-#             profile.displayName = bot5_name["11"]
+#             profile.displayName = MJ5_name["11"]
 #             kg.updateProfile(profile)
 #             time.sleep(0.5)
 #         except:
@@ -1719,19 +1718,19 @@ def likePost():
                 print "Not Admin or staff"
 
 # Auto Changing name
-# thread1 = threading.Thread(target=nameUpdate_Bot1)
+# thread1 = threading.Thread(target=nameUpdate_MJ1)
 # thread1.daemon = True
 # thread1.start()
-# thread2 = threading.Thread(target=nameUpdate_Bot2)
+# thread2 = threading.Thread(target=nameUpdate_MJ2)
 # thread2.daemon = True
 # thread2.start()
-# thread3 = threading.Thread(target=nameUpdate_Bot3)
+# thread3 = threading.Thread(target=nameUpdate_MJ3)
 # thread3.daemon = True
 # thread3.start()
-# thread4 = threading.Thread(target=nameUpdate_Bot4)
+# thread4 = threading.Thread(target=nameUpdate_MJ4)
 # thread4.daemon = True
 # thread4.start()
-# thread5 = threading.Thread(target=nameUpdate_Bot5)
+# thread5 = threading.Thread(target=nameUpdate_MJ5)
 # thread5.daemon = True
 # thread5.start()
 # END
