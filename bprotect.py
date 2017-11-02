@@ -10,15 +10,15 @@ cl.login(qr=True)
 cl.loginResult()
 
 kk = LINETCR.LINE()
-kk.login(token="ElJl9jEZ2a00PphlgyF4.rGnjiTwph3BZhrtJd0WtLa.p4VJrylI7vRtV/GCvWzDfz2aJFyOGR8u8zLRZpk1GGE=")
+kk.login(token="A9JXENvNmboY5aRvviYz6ml779WP1JW0l8NrUD1kAJRbwAoMN/G5VYnzMyWJN9b87nboZNfYswmvHy/LaP0CPelTbLbOZfO8ddnDw+VrCImbwstbKR/J+X7Ovt/7sTGPgtaSyxzodyZPJ6xGzbiKzAdB04t89/1O/w1cDnyilFU=")
 kk.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token="EluEVHqxj9iB8emn7z28.MinrOAgI3TOt5KJCXQX+Aa.LMn5dWRIOAzMj7he8g4KQbCc5n4dNf1FU0r0ina+whA=")
+ki.login(token="otX5DX2jMh4zkU64D7MKA3xrSi5rkdTR++gAIioFvpT4d5XlvGl9iV9AuETI4sgbJZqxNbEAu/lXmhoA+z8mfYbseHRRSx/Y6iLK8xYPe4AfpZegWUFKIFQ55mxqWOiLJtR5fdZyzomqnWqBzJEGOQdB04t89/1O/w1cDnyilFU=")
 ki.loginResult()
 
 kc = LINETCR.LINE()
-kc.login(token="ElAA0BQG4kDryOSR6503.biRLhTNOFtsbwVm5XIYpiW.RI4jB5Adz6tvzopL9xaS7lK4tSqyA/E/32ofbSx+Tl8=")
+kc.login(token="SgiYZ+fmWm9HqBxd6hNsrriKd904jxEVMJPkTNko+OUtlHrbDA46VudxavC1+67zK8qLt7MjhSZk7AWRG1yFclMo6iCEf8z5GFS8Ik28xmQ7uSazAC2YyBov7La2Sv9dfOZiSdZ1t2DBZAO0JLEsnwdB04t89/1O/w1cDnyilFU=")
 kc.loginResult()
 
 cl
@@ -85,9 +85,9 @@ Amid = kk.getProfile().mid
 Bmid = ki.getProfile().mid
 Cmid = kc.getProfile().mid
 Bots = [mid,Amid,Bmid,Cmid,]
-admin = ["u5aa2d0aa38b6566631c797f0334ae415","u85326fcaa03d37e33403c3281943aaef","u3a8f175f00cd198a04be74e8ea90dec5"]
-staff = ["u5aa2d0aa38b6566631c797f0334ae415","u85326fcaa03d37e33403c3281943aaef","u3a8f175f00cd198a04be74e8ea90dec5"]
-adminMID = "u5aa2d0aa38b6566631c797f0334ae415"
+admin = ["ucbc8a43ab2f3b1bd76b518400fa931c5","u2a7441d2c08f166acd8ba009451eff45","u2ec9a6bddfa8a8b600220c69ddac3148"]
+staff = ["ucbc8a43ab2f3b1bd76b518400fa931c5","u2a7441d2c08f166acd8ba009451eff45","u2ec9a6bddfa8a8b600220c69ddac3148"]
+adminMID = "ucbc8a43ab2f3b1bd76b518400fa931c5"
 wait = {
     'contact':True,
     'autoJoin':True,
